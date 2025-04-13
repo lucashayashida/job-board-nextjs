@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
 
 @import 'tailwindcss';
 
@@ -7,7 +7,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --font-display: "Maven pro", cursive;
+  --font-display: var(--font-maven-pro), cursive;
+  --font-divertida: var(--font-barriecito), cursive;
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
 
